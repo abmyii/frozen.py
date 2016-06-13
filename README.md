@@ -9,3 +9,7 @@ For example:
 frozen.py test test.zip "python test.py"
 
 This takes the zip "test.zip" which has a "test.py" in it and at runtime, unpacks the zip and runs that command.
+
+requirements
+============
+Cython >= 0.20 (tested with 0.23.4)
